@@ -1,0 +1,10 @@
+name: Verify reproducibility
+on:
+  push:
+    branches:
+      - master
+jobs:
+  verify-repro:
+    uses: mullvad/rsw-public/.github/workflows/verify-repro.yaml@master
+    with:
+      reusable-ref: master

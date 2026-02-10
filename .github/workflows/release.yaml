@@ -5,6 +5,6 @@ on:
       - '**'
 jobs:
   debsum:
-    uses: mullvad/rsw-public/.github/workflows/go-debsum.yaml@master
+    uses: mullvad/rsw-public/.github/workflows/debsum.yaml@master
     with:
       release: release
