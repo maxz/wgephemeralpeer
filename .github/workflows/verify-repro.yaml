@@ -8,3 +8,4 @@ jobs:
     uses: mullvad/rsw-public/.github/workflows/verify-repro.yaml@master
     with:
       reusable-ref: master
+      release: release
